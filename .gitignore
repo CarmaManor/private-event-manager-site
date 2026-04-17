@@ -42,4 +42,5 @@ __pycache__/
 
 # Cloudflare Wrangler
 .wrangler/
-.dev.vars.claude/
+.dev.vars
+
