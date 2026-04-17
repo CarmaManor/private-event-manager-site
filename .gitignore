@@ -1,0 +1,43 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Editor swap/backup files
+*.swp
+*.swo
+*~
+.vscode/
+
+# Logs
+*.log
+
+# Local env / secrets
+.env
+.env.local
+.env.*.local
+
+# Node (in case you ever run a local dev server via npx/http-server and it creates these)
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Python (in case you use `python -m http.server` and generate these)
+__pycache__/
+*.pyc
+
+# Cloudflare Wrangler (if you ever add Pages Functions)
+.wrangler/
+.dev.varsgit
