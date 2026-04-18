@@ -1,5 +1,8 @@
 # Cloudflare Pages _redirects file
 # Redirects /events/* and /join/* to swinging.party
-
 /events/*  https://swinging.party/events/:splat  301
 /join/*    https://swinging.party/join/:splat     301
+
+# Block widget dev test page from production (still served via local dev)
+/signup-widget-test/*  /404  404
+/signup-widget-test    /404  404
