@@ -4,5 +4,5 @@
 /join/*    https://swinging.party/join/:splat     301
 
 # Block widget dev test page from production (still served via local dev)
-/signup-widget-test/*  /404  404
-/signup-widget-test    /404  404
+/signup-widget-test/*  /  301
+/signup-widget-test    /  301
